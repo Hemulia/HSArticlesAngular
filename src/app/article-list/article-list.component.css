@@ -1,0 +1,83 @@
+  
+  .article {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .refresh-button {
+    background-color: #b7c3cf;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .read-button {
+    background-color: #b7c3cf;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .delete-button {
+    background-color: rgb(245, 110, 65);
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .article-text {
+    display: none; /* Hide the article text initially */
+    margin-top: 10px;
+  }
+   
+  /* Style for the "Lue koko artikkeli" link */
+  .article-text a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for buttons */
+  .read-button:hover {
+    background-color: #97c070b8;
+  }
+
+   .delete-button:hover {
+    background-color: #ff1111;
+  }
+
+  h1, h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(89, 131, 197);
+}
+
+a:hover {
+    font-weight: bold;
+}
+@media screen and (max-width: 915px) {
+    article {
+        font-size:small;
+    }
+  }

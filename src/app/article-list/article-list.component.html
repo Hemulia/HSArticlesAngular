@@ -1,0 +1,11 @@
+<h1>Artikkelit</h1>
+<button class="refresh-button"(click)="loadArticles()">
+  Päivitä syöte
+</button>
+<div *ngFor="let article of articles" class="article">
+  <h2>{{ article.title }}</h2>
+  <button type="button" class="read-button" (click)="toggleText(article)">{{ article.buttonText }}</button>
+  <p *ngIf="article.showText">{{ article.text }} <a [href]="article.link" target="_blank" class="more">Lue koko
+      artikkeli</a></p>
+  <button type="button" class="delete-button" (click)="deleteArticle(article.id)">Poista</button>
+</div>
